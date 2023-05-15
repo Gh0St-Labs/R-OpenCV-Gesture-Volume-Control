@@ -132,7 +132,7 @@ while True:
         # Change in volume rectangle
         cv.rectangle(frame, (50, int(volBar)), (85, 400), color=(255,0,0), thickness=-1)
         
-        # Adding my Trademark VolCircle™
+        # Adding my Trademark -> VolCircle™
         cv.circle(frame, (580, 50), 10, (255,255,255), -1)
         cv.circle(frame, (580, 50), int(volCircle), (0,255,0), 2)
 
